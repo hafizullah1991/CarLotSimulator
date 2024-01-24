@@ -24,7 +24,7 @@ namespace CarLotSimulator
             IsDriveable = isDriveable;
         }
 
-        public void MakeEngineNoise()
+        public void MakeEngineNoise( )
         {
             Console.WriteLine($"The {Make} is making the engine noise: {EngineNoise} and is {IsDriveable}");
         }
